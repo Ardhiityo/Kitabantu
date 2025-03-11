@@ -573,11 +573,6 @@ video {
   margin-right: auto;
 }
 
-.my-4{
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
 .my-6{
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
@@ -587,16 +582,20 @@ video {
   margin-bottom: 2.5rem;
 }
 
+.mt-4{
+  margin-top: 1rem;
+}
+
+.mb-4{
+  margin-bottom: 1rem;
+}
+
 .flex{
   display: flex;
 }
 
 .grid{
   display: grid;
-}
-
-.hidden{
-  display: none;
 }
 
 .h-2{
@@ -631,6 +630,11 @@ video {
   width: 100%;
 }
 
+.w-max{
+  width: -moz-max-content;
+  width: max-content;
+}
+
 .max-w-screen-sm{
   max-width: 640px;
 }
@@ -649,6 +653,10 @@ video {
 
 .flex-wrap{
   flex-wrap: wrap;
+}
+
+.flex-nowrap{
+  flex-wrap: nowrap;
 }
 
 .items-center{
@@ -675,12 +683,28 @@ video {
   gap: 0.5rem;
 }
 
-.gap-5{
-  gap: 1.25rem;
-}
-
 .gap-6{
   gap: 1.5rem;
+}
+
+.overflow-auto{
+  overflow: auto;
+}
+
+.overflow-hidden{
+  overflow: hidden;
+}
+
+.overflow-x-auto{
+  overflow-x: auto;
+}
+
+.overflow-x-scroll{
+  overflow-x: scroll;
+}
+
+.text-nowrap{
+  text-wrap: nowrap;
 }
 
 .rounded-full{
@@ -706,11 +730,6 @@ video {
   border-width: 2px;
 }
 
-.border-x-2{
-  border-left-width: 2px;
-  border-right-width: 2px;
-}
-
 .border-none{
   border-style: none;
 }
@@ -718,11 +737,6 @@ video {
 .border-slate-100{
   --tw-border-opacity: 1;
   border-color: rgb(241 245 249 / var(--tw-border-opacity, 1));
-}
-
-.border-slate-200{
-  --tw-border-opacity: 1;
-  border-color: rgb(226 232 240 / var(--tw-border-opacity, 1));
 }
 
 .bg-\[\#EFF0F1\]{
@@ -755,16 +769,12 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
-.p-16{
-  padding: 4rem;
-}
-
 .p-2{
   padding: 0.5rem;
 }
 
-.p-4{
-  padding: 1rem;
+.p-8{
+  padding: 2rem;
 }
 
 .px-3{
@@ -797,9 +807,9 @@ video {
   padding-bottom: 1.25rem;
 }
 
-.px-6{
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+.px-2{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .pb-0{
@@ -855,18 +865,6 @@ video {
 }
 
 @media (min-width: 640px){
-  .sm\:inline{
-    display: inline;
-  }
-
-  .sm\:flex{
-    display: flex;
-  }
-
-  .sm\:\!flex-nowrap{
-    flex-wrap: nowrap !important;
-  }
-
   .sm\:border-x-2{
     border-left-width: 2px;
     border-right-width: 2px;
