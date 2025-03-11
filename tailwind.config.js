@@ -10,6 +10,9 @@ module.exports = {
         primary: "#FE9AA0",
         secondary: "#FFE7E7",
       },
+      borderColor: {
+        primary: "#FE9AA0",
+      },
     },
   },
   plugins: [],
