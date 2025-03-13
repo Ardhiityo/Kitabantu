@@ -603,10 +603,6 @@ body{
   top: 50%;
 }
 
-.left-1\/2{
-  left: 50%;
-}
-
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -637,16 +633,17 @@ body{
   margin-bottom: 2rem;
 }
 
+.my-32{
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
 .mb-10{
   margin-bottom: 2.5rem;
 }
 
 .mb-2{
   margin-bottom: 0.5rem;
-}
-
-.mb-28{
-  margin-bottom: 7rem;
 }
 
 .mb-4{
@@ -659,6 +656,10 @@ body{
 
 .mt-20{
   margin-top: 5rem;
+}
+
+.box-border{
+  box-sizing: border-box;
 }
 
 .block{
@@ -711,6 +712,10 @@ body{
 
 .w-\[50px\]{
   width: 50px;
+}
+
+.w-\[576px\]{
+  width: 576px;
 }
 
 .w-full{
@@ -769,10 +774,6 @@ body{
   gap: 2.5rem;
 }
 
-.gap-12{
-  gap: 3rem;
-}
-
 .gap-14{
   gap: 3.5rem;
 }
@@ -805,12 +806,12 @@ body{
   gap: 2rem;
 }
 
-.gap-11{
-  gap: 2.75rem;
+.gap-12{
+  gap: 3rem;
 }
 
-.gap-9{
-  gap: 2.25rem;
+.gap-28{
+  gap: 7rem;
 }
 
 .overflow-auto{
@@ -846,6 +847,16 @@ body{
 .rounded-t-\[50px\]{
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
+}
+
+.rounded-t-2xl{
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.rounded-t-3xl{
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
 }
 
 .border-2{
@@ -977,9 +988,24 @@ body{
   padding-bottom: 0.75rem;
 }
 
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .py-5{
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.py-16{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.py-28{
+  padding-top: 7rem;
+  padding-bottom: 7rem;
 }
 
 .pb-0{
@@ -988,6 +1014,18 @@ body{
 
 .pt-12{
   padding-top: 3rem;
+}
+
+.pb-24{
+  padding-bottom: 6rem;
+}
+
+.pt-8{
+  padding-top: 2rem;
+}
+
+.pb-20{
+  padding-bottom: 5rem;
 }
 
 .text-center{
@@ -1077,6 +1115,12 @@ body{
 .shadow-lg{
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-2xl{
+  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
