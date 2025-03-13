@@ -579,12 +579,32 @@ body{
   font-family: Poppins, sans-serif;
 }
 
+.absolute{
+  position: absolute;
+}
+
+.relative{
+  position: relative;
+}
+
 .sticky{
   position: sticky;
 }
 
 .bottom-0{
   bottom: 0px;
+}
+
+.top-10{
+  top: 2.5rem;
+}
+
+.top-1\/2{
+  top: 50%;
+}
+
+.top-1\/3{
+  top: 33.333333%;
 }
 
 .mx-auto{
@@ -616,8 +636,16 @@ body{
   margin-bottom: 2.5rem;
 }
 
+.mb-28{
+  margin-bottom: 7rem;
+}
+
 .mb-4{
   margin-bottom: 1rem;
+}
+
+.block{
+  display: block;
 }
 
 .flex{
@@ -626,6 +654,10 @@ body{
 
 .grid{
   display: grid;
+}
+
+.hidden{
+  display: none;
 }
 
 .h-2{
@@ -670,6 +702,10 @@ body{
 
 .max-w-screen-sm{
   max-width: 640px;
+}
+
+.cursor-pointer{
+  cursor: pointer;
 }
 
 .grid-cols-2{
@@ -724,6 +760,10 @@ body{
   gap: 1rem;
 }
 
+.gap-5{
+  gap: 1.25rem;
+}
+
 .gap-6{
   gap: 1.5rem;
 }
@@ -752,6 +792,10 @@ body{
   border-radius: 0.75rem;
 }
 
+.rounded{
+  border-radius: 0.25rem;
+}
+
 .rounded-e-full{
   border-start-end-radius: 9999px;
   border-end-end-radius: 9999px;
@@ -771,6 +815,10 @@ body{
   border-width: 2px;
 }
 
+.border{
+  border-width: 1px;
+}
+
 .border-none{
   border-style: none;
 }
@@ -785,9 +833,19 @@ body{
   border-color: rgb(226 232 240 / var(--tw-border-opacity, 1));
 }
 
+.border-gray-300{
+  --tw-border-opacity: 1;
+  border-color: rgb(209 213 219 / var(--tw-border-opacity, 1));
+}
+
 .bg-\[\#EFF0F1\]{
   --tw-bg-opacity: 1;
   background-color: rgb(239 240 241 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#F7F7F7\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(247 247 247 / var(--tw-bg-opacity, 1));
 }
 
 .bg-\[\#FFE7E7\]{
@@ -817,6 +875,10 @@ body{
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.fill-\[\#FE9AA0\]{
+  fill: #FE9AA0;
 }
 
 .p-2{
@@ -869,19 +931,14 @@ body{
   padding-bottom: 0.5rem;
 }
 
-.py-4{
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+.py-3{
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .py-5{
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-}
-
-.py-3{
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
 }
 
 .pb-0{
@@ -953,10 +1010,43 @@ body{
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
+.opacity-0{
+  opacity: 0;
+}
+
 .shadow-lg{
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.hover\:border-slate-300:hover{
+  --tw-border-opacity: 1;
+  border-color: rgb(203 213 225 / var(--tw-border-opacity, 1));
+}
+
+.hover\:border-blue-500:hover{
+  --tw-border-opacity: 1;
+  border-color: rgb(59 130 246 / var(--tw-border-opacity, 1));
+}
+
+.peer:checked ~ .peer-checked\:border-blue-500{
+  --tw-border-opacity: 1;
+  border-color: rgb(59 130 246 / var(--tw-border-opacity, 1));
+}
+
+.peer:checked ~ .peer-checked\:bg-primary{
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 154 160 / var(--tw-bg-opacity, 1));
+}
+
+.peer:checked ~ .peer-checked\:fill-white{
+  fill: #fff;
+}
+
+.peer:checked ~ .peer-checked\:text-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
 @media (min-width: 640px){
