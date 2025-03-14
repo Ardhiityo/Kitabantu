@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="z-10">
         <nav class="flex items-center max-w-screen-sm px-8 py-5 mx-auto">
             <a href="index.html" class="flex items-center gap-2 text-white">
                 <svg width="28" height="18" viewBox="0 0 28 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -23,9 +23,9 @@
         </nav>
     </header>
 
-    <main class="bg-[#ffff] max-w-screen-sm mx-auto min-h-screen">
-        <section class="p-8">
-            <form action="donation.html" method="post">
+    <form action="donation.html" method="post">
+        <main class="bg-[#ffff] max-w-screen-sm mx-auto min-h-screen">
+            <section class="p-8">
                 <div class="flex flex-col justify-center gap-2">
                     <h1 class="text-2xl my-2 font-bold text-[#4A4A4A]">
                         Berapa Donasi Yang Akan Kamu Berikan?
@@ -33,7 +33,7 @@
                     <div class="flex flex-col gap-5">
                         <div class="relative">
                             <input type="radio" name="nominal" value="30000" class="absolute opacity-0 peer top-1/2"
-                                id="30000">
+                                id="30000" required>
                             <label
                                 class="flex text-[#4A4A4A] font-bold text-lg items-center gap-5 p-4 border-2 border-slate-100 rounded-xl hover:border-slate-300 peer-checked:bg-primary fill-[#FE9AA0] peer-checked:fill-white peer-checked:text-white"
                                 for="30000">
@@ -95,20 +95,20 @@
                             class="py-3 bg-[#F7F7F7] rounded-xl w-full text-center text-2xl text-[#4A4A4A] font-semibold">
                     </div>
                 </div>
-                <div class="sticky bottom-0 py-3">
-                    <button
-                        class="flex items-center justify-center w-full gap-3 p-2 text-white rounded-full bg-primary">
-                        <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M0 0V19L3 17L6 19L9 17V10H4V8H11.47L18 11.26V0H0ZM14 6H4V4H14V6ZM11 20V16L15 15L11 14V10L21 15L11 20Z"
-                                fill="white" />
-                        </svg>
-                        <h1>Kirim Donasi</h1>
-                    </button>
-                </div>
-            </form>
-        </section>
-    </main>
+            </section>
+        </main>
+
+        <div class="sticky bottom-0 max-w-screen-sm px-8 py-3 mx-auto bg-white">
+            <button class="flex items-center justify-center w-full gap-3 p-2 text-white rounded-full bg-primary">
+                <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M0 0V19L3 17L6 19L9 17V10H4V8H11.47L18 11.26V0H0ZM14 6H4V4H14V6ZM11 20V16L15 15L11 14V10L21 15L11 20Z"
+                        fill="white" />
+                </svg>
+                <h1>Kirim Donasi</h1>
+            </button>
+        </div>
+    </form>
 </body>
 
 </html>
