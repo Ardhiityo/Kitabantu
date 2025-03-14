@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/output.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <header>
+        <nav class="box-border max-w-screen-sm px-8 py-5 mx-auto">
+            <h1 class="font-semibold text-white">Login
+            </h1>
+        </nav>
+    </header>
+
+    <form action="login.html" method="post">
+        <main class="max-w-screen-sm min-h-screen mx-auto bg-white">
+            <section class="flex flex-col p-8 gap-7">
+                <h1 class="text-2xl font-semibold mb-11 text-[#4A4A4A]">Silahkan Masukan Email dan Password Kamu disini
+                </h1>
+                <div class="flex flex-col gap-9">
+                    <input type="email" name="email" class="w-full px-3 py-2 border-2 rounded-lg border-slate-300"
+                        placeholder="Email">
+                    <input type="password" name="password" class="w-full px-3 py-2 border-2 rounded-lg border-slate-300"
+                        placeholder="Password">
+                    <span class="self-end text-primary">Lupa Kata Sandi?</span>
+                </div>
+                <div>
+                    <h1 class="mb-3 font-semibold">Atau Masuk Lebih Cepat</h1>
+                    <div
+                        class="flex items-center justify-center w-full gap-3 p-3 border-2 rounded-full border-slate-200">
+                        <svg width="23" height="24" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M22.7735 9.74969C22.9201 10.553 23 11.3929 23 12.2694C23 19.1252 18.5128 24 11.7354 24C10.1942 24.0005 8.66795 23.6904 7.24393 23.0875C5.81991 22.4846 4.52602 21.6007 3.43619 20.4864C2.34635 19.372 1.48195 18.0489 0.892351 16.5928C0.302756 15.1366 -0.000469373 13.576 5.45348e-07 12C-0.000469373 10.424 0.302756 8.86335 0.892351 7.40723C1.48195 5.95111 2.34635 4.62805 3.43619 3.51365C4.52602 2.39925 5.81991 1.51535 7.24393 0.912467C8.66795 0.309581 10.1942 -0.000479954 11.7354 5.57642e-07C14.9042 5.57642e-07 17.5519 1.1922 19.5833 3.128L16.2751 6.51077V6.50223C15.0436 5.30272 13.4807 4.68712 11.7354 4.68712C7.86337 4.68712 4.71611 8.0321 4.71611 11.9927C4.71611 15.9521 7.86337 19.3043 11.7354 19.3043C15.2487 19.3043 17.6401 17.2503 18.1313 14.4295H11.7354V9.74969H22.7747H22.7735Z"
+                                fill="#404040" />
+                        </svg>
+                        <span class="text-lg">Sign With Google</span>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <nav class="sticky bottom-0 max-w-screen-sm px-8 py-3 mx-auto bg-white">
+            <button class="w-full p-4 text-lg font-semibold text-white rounded-full bg-primary">Masuk Sekarang</button>
+            <h1 class="py-4 text-center text-primary">Belum Punya Akun ? <a href="#">Daftar Disini</a></h1>
+        </nav>
+    </form>
+</body>
+
+</html>
