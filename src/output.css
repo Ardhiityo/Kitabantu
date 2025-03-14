@@ -797,28 +797,12 @@ body{
   gap: 2rem;
 }
 
-.gap-12{
-  gap: 3rem;
-}
-
-.gap-16{
-  gap: 4rem;
-}
-
-.gap-24{
-  gap: 6rem;
-}
-
 .overflow-auto{
   overflow: auto;
 }
 
 .text-nowrap{
   text-wrap: nowrap;
-}
-
-.text-pretty{
-  text-wrap: pretty;
 }
 
 .rounded-full{
@@ -864,6 +848,16 @@ body{
 .border-slate-200{
   --tw-border-opacity: 1;
   border-color: rgb(226 232 240 / var(--tw-border-opacity, 1));
+}
+
+.border-slate-400{
+  --tw-border-opacity: 1;
+  border-color: rgb(148 163 184 / var(--tw-border-opacity, 1));
+}
+
+.border-slate-300{
+  --tw-border-opacity: 1;
+  border-color: rgb(203 213 225 / var(--tw-border-opacity, 1));
 }
 
 .bg-\[\#EFF0F1\]{
@@ -938,12 +932,12 @@ body{
   padding: 1.25rem;
 }
 
-.p-8{
-  padding: 2rem;
-}
-
 .p-6{
   padding: 1.5rem;
+}
+
+.p-8{
+  padding: 2rem;
 }
 
 .px-2{
@@ -976,9 +970,9 @@ body{
   padding-bottom: 0.25rem;
 }
 
-.py-10{
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+.py-12{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .py-2{
@@ -1001,11 +995,6 @@ body{
   padding-bottom: 1.25rem;
 }
 
-.py-12{
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
 .pb-0{
   padding-bottom: 0px;
 }
@@ -1020,10 +1009,6 @@ body{
 
 .text-center{
   text-align: center;
-}
-
-.font-serif{
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 .text-2xl{
@@ -1088,6 +1073,11 @@ body{
   color: rgb(172 172 172 / var(--tw-text-opacity, 1));
 }
 
+.text-\[\#B8B8B8\]{
+  --tw-text-opacity: 1;
+  color: rgb(184 184 184 / var(--tw-text-opacity, 1));
+}
+
 .text-primary{
   --tw-text-opacity: 1;
   color: rgb(254 154 160 / var(--tw-text-opacity, 1));
@@ -1096,16 +1086,6 @@ body{
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-secondary{
-  --tw-text-opacity: 1;
-  color: rgb(255 231 231 / var(--tw-text-opacity, 1));
-}
-
-.text-\[\#B8B8B8\]{
-  --tw-text-opacity: 1;
-  color: rgb(184 184 184 / var(--tw-text-opacity, 1));
 }
 
 .underline{
