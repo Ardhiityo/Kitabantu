@@ -797,12 +797,28 @@ body{
   gap: 2rem;
 }
 
+.gap-12{
+  gap: 3rem;
+}
+
+.gap-16{
+  gap: 4rem;
+}
+
+.gap-24{
+  gap: 6rem;
+}
+
 .overflow-auto{
   overflow: auto;
 }
 
 .text-nowrap{
   text-wrap: nowrap;
+}
+
+.text-pretty{
+  text-wrap: pretty;
 }
 
 .rounded-full{
@@ -926,6 +942,10 @@ body{
   padding: 2rem;
 }
 
+.p-6{
+  padding: 1.5rem;
+}
+
 .px-2{
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -1002,6 +1022,10 @@ body{
   text-align: center;
 }
 
+.font-serif{
+  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1072,6 +1096,16 @@ body{
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-secondary{
+  --tw-text-opacity: 1;
+  color: rgb(255 231 231 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#B8B8B8\]{
+  --tw-text-opacity: 1;
+  color: rgb(184 184 184 / var(--tw-text-opacity, 1));
 }
 
 .underline{
