@@ -591,12 +591,66 @@ body{
   position: sticky;
 }
 
+.inset-1{
+  inset: 0.25rem;
+}
+
+.inset-10{
+  inset: 2.5rem;
+}
+
+.inset-2{
+  inset: 0.5rem;
+}
+
+.inset-24{
+  inset: 6rem;
+}
+
+.inset-y-0{
+  top: 0px;
+  bottom: 0px;
+}
+
+.inset-x-0{
+  left: 0px;
+  right: 0px;
+}
+
 .bottom-0{
   bottom: 0px;
 }
 
+.left-0{
+  left: 0px;
+}
+
 .top-1\/2{
   top: 50%;
+}
+
+.right-0{
+  right: 0px;
+}
+
+.top-0{
+  top: 0px;
+}
+
+.bottom-1\/2{
+  bottom: 50%;
+}
+
+.-bottom-1\/4{
+  bottom: -25%;
+}
+
+.bottom-1\/4{
+  bottom: 25%;
+}
+
+.right-1\/2{
+  right: 50%;
 }
 
 .z-10{
@@ -637,6 +691,10 @@ body{
   margin-bottom: 2.5rem;
 }
 
+.mb-11{
+  margin-bottom: 2.75rem;
+}
+
 .mb-2{
   margin-bottom: 0.5rem;
 }
@@ -653,16 +711,32 @@ body{
   margin-top: 5rem;
 }
 
-.mb-14{
-  margin-bottom: 3.5rem;
+.mb-5{
+  margin-bottom: 1.25rem;
 }
 
-.mb-12{
-  margin-bottom: 3rem;
+.mt-10{
+  margin-top: 2.5rem;
 }
 
-.mb-11{
-  margin-bottom: 2.75rem;
+.mt-5{
+  margin-top: 1.25rem;
+}
+
+.-mt-5{
+  margin-top: -1.25rem;
+}
+
+.mt-4{
+  margin-top: 1rem;
+}
+
+.mt-3{
+  margin-top: 0.75rem;
+}
+
+.mr-3{
+  margin-right: 0.75rem;
 }
 
 .box-border{
@@ -693,6 +767,10 @@ body{
   height: 0.75rem;
 }
 
+.h-64{
+  height: 16rem;
+}
+
 .h-\[50px\]{
   height: 50px;
 }
@@ -711,6 +789,10 @@ body{
 
 .w-1\/3{
   width: 33.333333%;
+}
+
+.w-10{
+  width: 2.5rem;
 }
 
 .w-2\/3{
@@ -813,6 +895,10 @@ body{
   gap: 2.25rem;
 }
 
+.self-end{
+  align-self: flex-end;
+}
+
 .overflow-auto{
   overflow: auto;
 }
@@ -866,14 +952,14 @@ body{
   border-color: rgb(226 232 240 / var(--tw-border-opacity, 1));
 }
 
-.border-slate-400{
-  --tw-border-opacity: 1;
-  border-color: rgb(148 163 184 / var(--tw-border-opacity, 1));
-}
-
 .border-slate-300{
   --tw-border-opacity: 1;
   border-color: rgb(203 213 225 / var(--tw-border-opacity, 1));
+}
+
+.border-slate-400{
+  --tw-border-opacity: 1;
+  border-color: rgb(148 163 184 / var(--tw-border-opacity, 1));
 }
 
 .bg-\[\#EFF0F1\]{
@@ -903,6 +989,11 @@ body{
 
 .bg-\[\#ffff\]{
   background-color: #ffff;
+}
+
+.bg-blue-500{
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity, 1));
 }
 
 .bg-primary{
